@@ -6,6 +6,7 @@ describe "./variable.rb" do
 
     expect(greeting).to eq("Hello World")
   end
-greeting = "Hello World"
+  variable.rb(greeting)
+  greeting = "Hello World"
 end
 end
